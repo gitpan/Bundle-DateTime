@@ -1,6 +1,6 @@
 package Bundle::DateTime;
 
-$VERSION = 0.08;
+$VERSION = 0.09;
 
 1;
 
@@ -16,70 +16,50 @@ C<perl -MCPAN -e 'install Bundle::DateTime'>
 
 =head1 CONTENTS
 
-DateTime::LeapSecond - needed by DateTime
+Class::Factory::Util 1.3 - prereq's of DateTime
+Params::Validate 0.52
+Test::More 0
+Time::Local 1.04
 
-DateTime::Locale - needed by DateTime
+Class::Singleton 1.03 - prereq of DT::TimeZone
 
-DateTime::TimeZone - needed by DateTime
+DateTime::Locale 0.03 - needed by DateTime 
+DateTime::TimeZone 0.25 - needed by DateTime
 
 DateTime
 
 DateTime::Set
 
-DateTime::Format::Baby
-
-DateTime::Format::Bork
-
-DateTime::Format::Builder
-
-DateTime::Format::DateManip
-
-DateTime::Format::DBI
-
-DateTime::Format::Epoch
-
-DateTime::Format::Excel
-
-DateTime::Format::HTTP
-
-DateTime::Format::IBeat
-
-DateTime::Format::ICal
-
-DateTime::Format::ISO8601
-
-DateTime::Format::Mail
-
-DateTime::Format::MySQL
-
-DateTime::Format::Pg
-
-DateTime::Format::Roman
-
-DateTime::Format::Strptime
-
+DateTime::Format::Baby 
+DateTime::Format::Bork 
+DateTime::Format::Strptime -- needed by DT::F::Builder 
+DateTime::Format::Builder 
+DateTime::Format::DateManip 
+DateTime::Format::DBI 
+DateTime::Format::Epoch 
+DateTime::Format::Excel 
+DateTime::Format::HTTP 
+DateTime::Format::IBeat 
+DateTime::Event::ICal 
+DateTime::Format::ICal 
+DateTime::Format::ISO8601 
+DateTime::Format::Mail 
+DateTime::Format::MySQL 
+DateTime::Format::Pg 
+DateTime::Format::Roman 
 DateTime::Format::W3CDTF
 
-DateTime::Calendar::Coptic
-
-DateTime::Calendar::FrenchRevolutionary
-
-DateTime::Calendar::Julian
-
-DateTime::Calendar::Christian
-
-DateTime::Calendar::Mayan
-
+DateTime::Calendar::Coptic 
+DateTime::Calendar::FrenchRevolutionary 
+DateTime::Calendar::Julian 
+DateTime::Calendar::Christian 
+DateTime::Calendar::Mayan 
 DateTime::Calendar::Pataphysical
 
-DateTime::Event::Recurrence
-
-DateTime::Event::Cron
-
-DateTime::Event::Easter
-
-DateTime::Event::NameDay
-
+DateTime::Event::Recurrence 
+DateTime::Event::Cron 
+DateTime::Event::Easter 
+DateTime::Event::NameDay 
 DateTime::Event::Sunrise
 
 DateTime::TimeZone::Alias

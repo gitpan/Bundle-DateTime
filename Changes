@@ -1,5 +1,11 @@
 Revision history for Perl module Bundle::DateTime
 
+0.09  2003-08-23
+    - added DateTime prerequisites to the list. This should make the
+      first installation of Bundle::DT easier.
+
+    - removed DateTime::LeapSecond. Now included in DateTime.
+
 0.08  2003-07-28
     - added DateTime::Format::DateManip, DateTime::Locale and
       DateTime::Calendar::Coptic
