@@ -1,5 +1,8 @@
 Revision history for Perl module Bundle::DateTime
 
+0.06  2003-06-15
+    - added DateTime::TimeZone::Alias and DateTime::Format::DBI
+
 0.05  2003-06-02
     - added DateTime::Format::Pg, DateTime::Event::NameDay and
       DateTime::Format::Roman

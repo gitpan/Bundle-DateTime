@@ -1,6 +1,6 @@
 package Bundle::DateTime;
 
-$VERSION = 0.05;
+$VERSION = 0.06;
 
 1;
 
@@ -27,6 +27,8 @@ DateTime::Set
 DateTime::Format::Baby
 
 DateTime::Format::Builder
+
+DateTime::Format::DBI
 
 DateTime::Format::Epoch
 
@@ -67,6 +69,8 @@ DateTime::Event::Easter
 DateTime::Event::NameDay
 
 DateTime::Event::Sunrise
+
+DateTime::TimeZone::Alias
 
 =head1 DESCRIPTION
 
