@@ -1,6 +1,6 @@
 package Bundle::DateTime;
 
-$VERSION = 0.04;
+$VERSION = 0.05;
 
 1;
 
@@ -40,6 +40,10 @@ DateTime::Format::Mail
 
 DateTime::Format::MySQL
 
+DateTime::Format::Pg
+
+DateTime::Format::Roman
+
 DateTime::Format::Strptime
 
 DateTime::Format::W3CDTF
@@ -59,6 +63,8 @@ DateTime::Event::Recurrence
 DateTime::Event::Cron
 
 DateTime::Event::Easter
+
+DateTime::Event::NameDay
 
 DateTime::Event::Sunrise
 

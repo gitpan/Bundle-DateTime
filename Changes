@@ -1,5 +1,9 @@
 Revision history for Perl module Bundle::DateTime
 
+0.05  2003-06-02
+    - added DateTime::Format::Pg, DateTime::Event::NameDay and
+      DateTime::Format::Roman
+
 0.04  2003-05-05
     - added DateTime::Event::Cron and DateTime::Format::Epoch
 
