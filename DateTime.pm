@@ -1,6 +1,6 @@
 package Bundle::DateTime;
 
-$VERSION = 0.06;
+$VERSION = 0.07;
 
 1;
 
@@ -26,6 +26,8 @@ DateTime::Set
 
 DateTime::Format::Baby
 
+DateTime::Format::Bork
+
 DateTime::Format::Builder
 
 DateTime::Format::DBI
@@ -34,9 +36,13 @@ DateTime::Format::Epoch
 
 DateTime::Format::Excel
 
+DateTime::Format::HTTP
+
 DateTime::Format::IBeat
 
 DateTime::Format::ICal
+
+DateTime::Format::ISO8601
 
 DateTime::Format::Mail
 
