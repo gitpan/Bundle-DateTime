@@ -1,6 +1,6 @@
 package Bundle::DateTime;
 
-$VERSION = 0.03;
+$VERSION = 0.04;
 
 1;
 
@@ -28,6 +28,8 @@ DateTime::Format::Baby
 
 DateTime::Format::Builder
 
+DateTime::Format::Epoch
+
 DateTime::Format::Excel
 
 DateTime::Format::IBeat
@@ -53,6 +55,8 @@ DateTime::Calendar::Mayan
 DateTime::Calendar::Pataphysical
 
 DateTime::Event::Recurrence
+
+DateTime::Event::Cron
 
 DateTime::Event::Easter
 

@@ -1,5 +1,8 @@
 Revision history for Perl module Bundle::DateTime
 
+0.04  2003-05-05
+    - added DateTime::Event::Cron and DateTime::Format::Epoch
+
 0.03  2003-04-30
     - added DateTime::Event::Recurrence, DateTime::Event::Sunrise,
       DateTime::Format::Strptime, and
