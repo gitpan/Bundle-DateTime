@@ -1,5 +1,10 @@
 Revision history for Perl module Bundle::DateTime
 
+0.03  2003-04-30
+    - added DateTime::Event::Recurrence, DateTime::Event::Sunrise,
+      DateTime::Format::Strptime, and
+      DateTime::Calendar::FrenchRevolutionary
+
 0.02  2003-04-21
     - added DateTime::LeapSecond
 
