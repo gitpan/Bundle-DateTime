@@ -1,6 +1,6 @@
 package Bundle::DateTime;
 
-$VERSION = 0.07;
+$VERSION = 0.08;
 
 1;
 
@@ -18,6 +18,8 @@ C<perl -MCPAN -e 'install Bundle::DateTime'>
 
 DateTime::LeapSecond - needed by DateTime
 
+DateTime::Locale - needed by DateTime
+
 DateTime::TimeZone - needed by DateTime
 
 DateTime
@@ -29,6 +31,8 @@ DateTime::Format::Baby
 DateTime::Format::Bork
 
 DateTime::Format::Builder
+
+DateTime::Format::DateManip
 
 DateTime::Format::DBI
 
@@ -55,6 +59,8 @@ DateTime::Format::Roman
 DateTime::Format::Strptime
 
 DateTime::Format::W3CDTF
+
+DateTime::Calendar::Coptic
 
 DateTime::Calendar::FrenchRevolutionary
 

@@ -1,5 +1,9 @@
 Revision history for Perl module Bundle::DateTime
 
+0.08  2003-07-28
+    - added DateTime::Format::DateManip, DateTime::Locale and
+      DateTime::Calendar::Coptic
+
 0.07  2003-07-04
     - added DateTime::Format::Bork, DateTime::Format::HTTP and
       DateTime::Format::ISO8601
