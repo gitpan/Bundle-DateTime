@@ -1,6 +1,6 @@
 package Bundle::DateTime;
 
-$VERSION = '0.11';
+$VERSION = '0.12';
 
 1;
 
@@ -34,6 +34,7 @@ DateTime::HiRes
 
 DateTime::Calendar::Coptic 
 DateTime::Calendar::FrenchRevolutionary 
+DateTime::Calendar::Hebrew
 DateTime::Calendar::Hijri
 DateTime::Calendar::Julian  -- prereq of Easter
 DateTime::Calendar::Christian -- prereq of NameDay

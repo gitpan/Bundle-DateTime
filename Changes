@@ -1,5 +1,8 @@
 Revision history for Perl module Bundle::DateTime
 
+0.12  2003-10-03
+    - added DateTime::Calendar::Hebrew
+
 0.11  2003-09-10
     - added DateTime::HiRes and DateTime::Fiscal::Year
 
