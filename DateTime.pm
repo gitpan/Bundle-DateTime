@@ -1,6 +1,6 @@
 package Bundle::DateTime;
 
-$VERSION = '0.10';
+$VERSION = '0.11';
 
 1;
 
@@ -30,6 +30,16 @@ DateTime
 
 DateTime::Set
 
+DateTime::HiRes
+
+DateTime::Calendar::Coptic 
+DateTime::Calendar::FrenchRevolutionary 
+DateTime::Calendar::Hijri
+DateTime::Calendar::Julian  -- prereq of Easter
+DateTime::Calendar::Christian -- prereq of NameDay
+DateTime::Calendar::Mayan 
+DateTime::Calendar::Pataphysical
+
 DateTime::Event::Recurrence -- prereq of ICal
 DateTime::Event::Cron 
 DateTime::Event::Easter 
@@ -55,15 +65,9 @@ DateTime::Format::Pg
 DateTime::Format::Roman 
 DateTime::Format::W3CDTF
 
-DateTime::Calendar::Coptic 
-DateTime::Calendar::FrenchRevolutionary 
-DateTime::Calendar::Hijri
-DateTime::Calendar::Julian 
-DateTime::Calendar::Christian 
-DateTime::Calendar::Mayan 
-DateTime::Calendar::Pataphysical
-
 DateTime::TimeZone::Alias
+
+DateTime::Fiscal::Year
 
 =head1 DESCRIPTION
 
