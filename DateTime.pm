@@ -1,6 +1,6 @@
 package Bundle::DateTime;
 
-$VERSION = 0.01;
+$VERSION = 0.02;
 
 1;
 
@@ -17,6 +17,8 @@ C<perl -MCPAN -e 'install Bundle::DateTime'>
 =head1 CONTENTS
 
 DateTime
+
+DateTime::LeapSecond - should be installed by DateTime
 
 DateTime::TimeZone - should be installed by DateTime
 
@@ -38,17 +40,15 @@ DateTime::Format::MySQL
 
 DateTime::Format::W3CDTF
 
-DateTime::Calendar::Christian
-
 DateTime::Calendar::Julian
+
+DateTime::Calendar::Christian
 
 DateTime::Calendar::Mayan
 
 DateTime::Calendar::Pataphysical
 
 DateTime::Event::Easter
-
-DateTime::Astro::Sunrise - development release
 
 =head1 DESCRIPTION
 

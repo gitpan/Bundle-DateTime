@@ -1,4 +1,9 @@
 Revision history for Perl module Bundle::DateTime
 
+0.02  2003-04-21
+    - added DateTime::LeapSecond
+
+    - removed DateTime::Astro::Sunrise (development release)
+
 0.01  2003-04-05
-	- original version
+    - original version
