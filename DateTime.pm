@@ -1,6 +1,6 @@
 package Bundle::DateTime;
 
-$VERSION = 0.09;
+$VERSION = '0.10';
 
 1;
 
@@ -30,17 +30,23 @@ DateTime
 
 DateTime::Set
 
+DateTime::Event::Recurrence -- prereq of ICal
+DateTime::Event::Cron 
+DateTime::Event::Easter 
+DateTime::Event::ICal 
+DateTime::Event::NameDay 
+DateTime::Event::Sunrise
+
+DateTime::Format::Strptime -- needed by DT::F::Builder 
+DateTime::Format::Builder -- prereq of several other formats
 DateTime::Format::Baby 
 DateTime::Format::Bork 
-DateTime::Format::Strptime -- needed by DT::F::Builder 
-DateTime::Format::Builder 
 DateTime::Format::DateManip 
 DateTime::Format::DBI 
 DateTime::Format::Epoch 
 DateTime::Format::Excel 
 DateTime::Format::HTTP 
 DateTime::Format::IBeat 
-DateTime::Event::ICal 
 DateTime::Format::ICal 
 DateTime::Format::ISO8601 
 DateTime::Format::Mail 
@@ -51,16 +57,11 @@ DateTime::Format::W3CDTF
 
 DateTime::Calendar::Coptic 
 DateTime::Calendar::FrenchRevolutionary 
+DateTime::Calendar::Hijri
 DateTime::Calendar::Julian 
 DateTime::Calendar::Christian 
 DateTime::Calendar::Mayan 
 DateTime::Calendar::Pataphysical
-
-DateTime::Event::Recurrence 
-DateTime::Event::Cron 
-DateTime::Event::Easter 
-DateTime::Event::NameDay 
-DateTime::Event::Sunrise
 
 DateTime::TimeZone::Alias
 
@@ -68,6 +69,10 @@ DateTime::TimeZone::Alias
 
 This bundle contains all modules related to the DateTime project: base
 modules, formatters and parsers, calendars and event modules.
+
+If you're not seriously interested in dates, times, calendars, or the
+DateTime project, you might be better served by individually installing
+the modules you need.
 
 =head1 AUTHOR
 

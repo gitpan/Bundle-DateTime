@@ -1,5 +1,10 @@
 Revision history for Perl module Bundle::DateTime
 
+0.10  2003-09-02
+    - added DateTime::Calendar::Hijri
+
+    - smoother installation because of a reordering of the module list
+
 0.09  2003-08-23
     - added DateTime prerequisites to the list. This should make the
       first installation of Bundle::DT easier.
